@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/ODD_Copie2_TEI_3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/ODD_Copie2_TEI_3.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Tour du monde en quatre-vingts jours</title>
+            <author ref="https://catalogue.bnf.fr/ark:/12148/cb11928016k">
+               <forename>Jules</forename>
+               <surname>Verne</surname>
+            </author>
+            <respStmt>
+               <resp>Encodage réalisé dans le cadre du cours de TEI du Master TNAH</resp>
+               <persName>
+                  <forename>Clémence</forename>
+                  <surname>Beau</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Journal Le Temps</publisher>
+            <pubPlace>
+               <address>
+                  <country key="FR"/>
+                  <settlement type="city">Paris</settlement>
+                  <postCode>75010</postCode>
+                  <district type="arrondissement">10e</district>
+                  <street> Rue du Faubourg-Montmartre <num>10</num>
+                  </street>
+               </address>
+            </pubPlace>
+            <date when-iso="1872">1872</date>
+            <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k225189q/f1.item">Gallica
+               Bibliothèque nationale de France</distributor>
+            <availability>
+               <licence
+                  target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                  >Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Le Tour du monde en quatre-vingts jours</title>
+                  <author ref="https://catalogue.bnf.fr/ark:/12148/cb11928016k">
+                     <forename>Jules</forename>
+                     <surname>Verne</surname>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Journal Le Temps</publisher>
+                  <pubPlace>
+                     <address>
+                        <country key="FR"/>
+                        <settlement type="city">Paris</settlement>
+                        <postCode>75010</postCode>
+                        <district type="arrondissement">10e</district>
+                        <street>Rue du Faubourg-Montmartre <num>10</num>
+                        </street>
+                     </address>
+                  </pubPlace>
+                  <date when-iso="1872">1872</date>
+                  <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k225189q/f1.item">Gallica
+                     Bibliothèque nationale de France</distributor>
+                  <availability>
+                     <licence
+                        target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                        >Domaine public</licence>
+                  </availability>
+               </publicationStmt>
+               <seriesStmt>
+                  <title>Le Tour du monde en quatre-vingts jours</title>
+                  <biblScope unit="chapter">VIII et IX</biblScope>
+                  <biblScope unit="page" from="1" to="2">pp. 1-2</biblScope>
+               </seriesStmt>
+            </biblFull> 
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1872">1872</date>
+            <country key="FR">France</country>
+            <lang xml:lang="fr"/>
+         </creation>
+         <settingDesc>
+            <listPlace>
+               
+               <place xml:id="Paris" type="city">
+                  <placeName>
+                     <name>Paris</name>
+                     <address>
+                        <country key="FR"/>
+                        <settlement type="city">Paris</settlement>
+                        <postCode>75000</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>none</note>
+               </place>
+              
+               <place xml:id="Bombay" type="city">
+                  <placeName>
+                     <name>Bombay</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="city">Bombay</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Aujourd'hui devenue Mumbaï, Bombay est la capitale de l'<placeName ref="#Inde">Inde</placeName>. Dans le roman, c'est la ville que les protagonistes traversent avant de se rendre à <placeName ref="#Calcutta">Calcutta</placeName>.</note>
+               </place>
+               
+               <place xml:id="Inde" type="country">
+                  <placeName>
+                     <name>Inde</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="country">Inde</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>none</note>
+               </place>
+               
+               <place xml:id="Asie" type="location">
+                  <placeName>
+                     <name>Asie</name>
+                     <address>
+                        <country/>
+                        <settlement type="location">Asie</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>none</note>
+               </place>
+               
+               <place xml:id="Suez" type="city">
+                  <placeName>
+                     <name>Suez</name>
+                     <address>
+                        <country key="EG"/>
+                        <settlement type="city">Suez</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Ville traversée par <persName ref="#Phileas Fogg">Phileas Fogg</persName> durant son voyage.</note>
+               </place>
+       
+                 <place xml:id="Afrique" type="location">
+                  <placeName>
+                     <name>Afrique</name>
+                     <address>
+                        <country/>
+                        <settlement type="location">Afrique</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>none</note>
+               </place>
+               
+               <place xml:id="Mongolia" type="location">
+                  <placeName>
+                     <name>Mongolia</name>
+                     <address>
+                        <country/>
+                        <settlement type="location">Mongolia</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Le Mongolia est l'un des moyens de transports utilisés par <persName ref="#Phileas Fogg">Phileas Fogg</persName> pour réaliser son voyage.</note>
+               </place>
+               
+               <place xml:id="Calcutta" type="city">
+                  <placeName>
+                     <name>Calcutta</name>
+                     <address>
+                        <country key="IN"/>
+                        <settlement type="city">Calcutta</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Aujourd'hui renommée Kolkata, Calcutta est la capitale de l'État du Bengale-Occidental en Inde. Il s'agit d'une ville traversée par <persName ref="#Phileas Fogg">Phileas Fogg</persName> durant son voyage.</note>
+               </place>
+               
+               <place xml:id="détroit_de_Babel-Mandeb" type="placeName">
+                  <placeName>
+                     <name>détroit de Babel-Mandeb</name>
+                     <address>
+                        <country/>
+                        <settlement type="placeName">Bab-el-Mandeb</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Babel-Mandeb ("Porte des Larmes" en arabe) est un détroit situé entre la Mer Rouge et l'Océan indien.</note>
+               </place>
+               
+               <place xml:id="Gibraltar" type="placeName">
+                  <placeName>
+                     <name>Gibraltar</name>
+                     <address>
+                        <country/>
+                        <settlement type="placeName">Gibraltar</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Gibraltar est un territoire situé au sud de la péninsule Ibérique, en bordure du détroit de Gibraltar, qui relie la Méditerranée à l'océan Atlantique..</note>
+               </place>
+               
+               <place xml:id="Aden" type="city">
+                  <placeName>
+                     <name>Aden</name>
+                     <address>
+                        <country key="YE"/>
+                        <settlement type="city">Aden</settlement>
+                        <postCode>none</postCode>
+                        <district>none</district>
+                        <street>none</street>
+                     </address>
+                  </placeName>
+                  <note>Aden est une ville située à 170 km au nord du détroit de Bab-el-Mandeb.</note>
+               </place>
+               
+            </listPlace>
+         </settingDesc>
+         <particDesc>
+            <listPerson>
+               
+               <person xml:id="Phileas_Fogg" sex="male">
+                  <persName>Phileas Fogg</persName>
+               <note>Phileas Fogg est un londonien célibataire d'une quarantaine d'années. Personnage aisé, il parie avec ses partenaires de jeu qu'il pourra faire le tour du monde en quatre-vingts jours avec son nouveau domestique <persName ref="#Passepartout">Passepartout</persName> Il est le personnage principal du roman de Jules Vernes.</note>
+               </person>
+               
+               <person xml:id="Passepartout" sex="male">
+                  <persName>Jean Passepartout dit Passepartout</persName>
+                  <note> Passepartout est un jeune français d'une trentaine d'années. Ancien acrobate, il devient au début du roman le nouveau domestique de <persName ref="#Phileas_Fogg">Phileas Fogg</persName> et l'accompagne dans son tour du monde en quatre vingts jours.</note>
+               </person>
+               
+               <person xml:id="Fix" sex="male">
+                  <persName>Fix</persName>
+                  <note>Fix est un détective anglais. Convaincu que le coupable du vol de la Banque d'Angleterre est <persName ref="#Phileas_Fogg">Phileas Fogg</persName>, il le suit dans son voyage afin de le démasquer.</note>
+               </person>
+               
+               <person xml:id="le_consul" sex="male">
+                  <persName>Le consul</persName>
+                  <note>Il est le supérieur de <persName ref="#Fix">Fix</persName> auquel ce dernier rend des comptes sur l'avancée de son enquête.</note>
+               </person>
+               
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <p>Cet encodage a été réalisé à partir de la numérisation du journal Le Temps disponible sur Gallica. Il se focalise sur les chapitres VIII et IX du roman-feuilleton Le tour du monde en quatre-vingts jours écrit par Jules Verne en 1872. Le texte a été retrancrit fidèlement, à l'exception des paragraphes qui ont été modifiés dans un souci de clarté.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter">
+            <head>Chapitre VIII.
+               <lb/>DANS LEQUEL <persName ref="#Passepartout">PASSEPARTOUT</persName> PARLE UN PEU PLUS PEUT-ÊTRE QU'IL NE CONVIENDRAIT
+            </head>
+            <p><persName ref="#Fix">Fix</persName> avait en peu d’instants rejoint sur le quai <persName ref="#Passepartout">Passepartout</persName>, qui flânait et regardait, ne se croyant pas, <rs type="person_grammar" ref="#Passepartout">lui</rs>, obligé à ne point voir.</p> 
+            <p><said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"> Eh bien, <persName ref="#Passepartout">mon garçon</persName>, <seg type="incise">lui dit <persName ref="#Fix">Fix</persName> en l’abordant</seg>, <rs type="person_grammar" ref="#Passepartout">votre</rs> passe-port est visé ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"> Ah! c’est <rs type="person_grammar" ref="#Fix">vous</rs>, <persName ref="#Fix">monsieur</persName>, <seg type="incise">répondit <persName ref="#Passepartout">le Français</persName>, bien obligé.</seg> Nous sommes parfaitement en règle.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"> Et <rs type="person_grammar" ref="#Passepartout">vous</rs> regardez le pays ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"> Oui, mais nous allons si vite qu’il me semble que <rs type="person_grammar" ref="#Passepartout">je</rs> voyage en rêve. Et comme cela, nous sommes à <placeName ref="#Suez">Suez</placeName> ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">À <placeName ref="#Suez">Suez</placeName>.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"> En Égypte ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"> En Égypte, parfaitement.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Et en <placeName ref="#Afrique">Afrique</placeName>?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"> En <placeName ref="#Afrique">Afrique</placeName> !</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"> En <placeName ref="#Afrique">Afrique</placeName> ! <seg type="incise"> répéta <persName ref="#Passepartout">Passepartout</persName></seg>. <rs type="person_grammar" ref="#Passepartout">Je</rs> ne peux y croire. Figurez-<rs type="person_grammar" ref="#Fix">vous</rs>, <persName ref="#Fix">monsieur</persName>, que <rs type="person_grammar" ref="#Passepartout">je m'</rs> imaginais ne pas aller plus loin que <placeName ref="#Paris">Paris</placeName>, et cette fameuse capitale, <rs type="person_grammar" ref="#Passepartout">je</rs> l'ai revue tout juste de sept heures vingt du matin à huit heures quarante, entre la gare du Nord et la gare de Lyon, à travers les vitres d’un fiacre et par une pluie battante ! <rs type="person_grammar" ref="#Passepartout">Je</rs> le regrette ! <rs type="person_grammar" ref="#Passepartout">J'</rs> aurais aimé à revoir le Père-Lachaise et le Cirque des Champs-Élysées !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><rs type="person_grammar" ref="#Passepartout">Vous</rs> êtes donc bien pressé ?</said><seg type="incise">demanda <persName ref="#Fix">l'inspecteur de police</persName>.</seg></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Moi</rs>, non; mais c’est <persName ref="#Phileas_Fogg"><rs type="person_grammar" ref="#Passepartout">mon</rs> maître</persName>. A propos, il faut que <rs type="person_grammar" ref="#Passepartout">j'</rs>achète des chaussettes et des chemises! <rs type="person_grammar" ref="#Passepartout, #Phileas_Fogg">Nous</rs> sommes partis sans malles, avec un sac de nuit seulement.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><rs type="person_grammar" ref="#Fix">Je</rs> vais <rs type="person_grammar" ref="#Passepartout">vous</rs> conduire à un bazar où <rs type="person_grammar" ref="#Passepartout">vous</rs> trouverez tout ce qu’il faut.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><persName ref="#Fix">Monsieur</persName>, <seg type="incise">répondit <persName ref="#Passepartout">Passepartout</persName></seg>, <rs type="person_grammar" ref="#Fix">vous</rs> êtes vraiment d’une complaisance ! »</said></p> 
+            <p>Et tous deux se mirent en route. <persName ref="#Passepartout">Passepartout</persName> causait toujours.</p> 
+            <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">« Surtout, <seg type="incise">dit-<rs type="person_grammar" ref="#Passepartout">il</rs></seg>, que <rs type="person_grammar" ref="#Passepartout">je</rs> n'aille pas manquer le bateau !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><rs type="person_grammar" ref="#Passepartout">Vous</rs> avez le temps, <seg type="incise">répondit <persName ref="#Fix">Fix</persName></seg>, il n’est encore qu'<time when="13:00:00">une heure</time> ! »</said></p> 
+            <p><persName ref="#Passepartout">Passepartout</persName> tira <rs type="person_grammar" ref="#Passepartout">sa</rs> grosse montre.</p> 
+            <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">« <time when="13:00:00">Une heure</time>, <seg type="incise">dit-<rs type="person_grammar" ref="#Passepartout">il</rs></seg>. Allons donc! il est <time when="10:45:00">dix heures cinquante-deux minutes</time> !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><rs type="person_grammar" ref="#Passepartout">Votre</rs> montre retarde</said>,<seg type="incise">répondit <persName ref="#Fix">Fix</persName>.</seg></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Ma</rs> montre! Une montre de famille qui vient de <persName><rs type="person_grammar" ref="#Passepartout">mon</rs> arrière grand-père</persName> ! Elle ne varie pas de cinq minutes par an. C’est un vrai chronomètre !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><rs type="person_grammar" ref="#Fix">Je</rs> vois ce que c’est, <seg type="incise">répondit <persName ref="#Fix">Fix</persName></seg>. <rs type="person_grammar" ref="#Passepartout">Vous</rs> avez gardé l’heure de Londres, qui retarde de deux heures environ sur <placeName ref="#Suez">Suez</placeName>. Il faut avoir soin de remettre <rs type="person_grammar" ref="#Passepartout">votre</rs> montre au <time when="12:00:00">midi</time> de chaque pays.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Moi</rs> ! toucher à <rs type="person_grammar" ref="#Passepartout">ma</rs> montre ! <seg type="incise">s’écria <persName ref="#Passepartout">Passepartout</persName></seg>, jamais !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Eh bien, elle ne sera plus d’accord avec le soleil.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Tant pis pour le soleil, <persName ref="#Fix">monsieur</persName> ! C’est lui qui aura tort ! »</said></p> 
+            <p>Et <persName ref="#Passepartout">le brave garçon</persName> remit <rs type="person_grammar" ref="#Passepartout">sa</rs> montre dans son gousset avec un geste superbe.</p> 
+            <p>Quelques instants après, <persName ref="#Fix">Fix</persName> <rs type="person_grammar" ref="#Passepartout">lui</rs> disait :</p> 
+            <p><said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">« <rs type="person_grammar" ref="#Passepartout, Phileas_Fogg">Vous</rs> avez donc quitté Londres précipitamment ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Je</rs> le crois bien ! Mercredi dernier, à <time when="21:00:00">neuf heures du soir</time>, contre toutes <rs type="person_grammar" ref="#Phileas_Fogg">ses</rs> habitudes, <persName ref="#Phileas_Fogg">Mr. Fogg</persName> revint de <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> cercle, et à <time when="22:00:00">dix heures</time> <rs type="person_grammar" ref="#Passepartout, #Phileas_Fogg">nous</rs> étions partis.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Mais où va-t-<rs type="person_grammar" ref="#Phileas_Fogg">il</rs> donc, <persName ref="#Phileas_Fogg"><rs type="person_grammar" ref="#Passepartout">votre</rs> maître</persName> ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Toujours devant <rs type="person_grammar" ref="#Phileas_Fogg">lui</rs> ! <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> fait le tour du monde !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Le tour du monde ?</said><seg type="incise"> s’écria <persName ref="#Fix">Fix</persName>.</seg></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Oui, en quatre-vingts jours ! Un pari, <seg type="incise">dit-<rs type="person_grammar" ref="#Passepartout">il</rs></seg>, mais, entre <rs type="person_grammar" ref="#Passepartout, #Fix">nous</rs>, <rs type="person_grammar" ref="#Passepartout">je</rs> n’en crois rien. Cela n’aurait pas le sens commun. Il y a autre chose.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Ah ! c’est un original, ce <persName ref="#Phileas_Fogg">Mr. Fogg</persName> ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Je</rs> le crois.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> est donc riche ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Évidemment, et <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> emporte une jolie somme avec <rs type="person_grammar" ref="#Phileas_Fogg">lui</rs>, en bank-notes toutes neuves ! Et <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> n’épargne pas l’argent en route. Tenez ! <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> a promis une prime magnifique au <persName>mécanicien du <placeName ref="#Mongolia">Mongolia</placeName></persName>, si nous arrivons à <placeName ref="#Bombay">Bombay</placeName> avec une belle avance !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Et <rs type="person_grammar" ref="#Passepartout">vous</rs> le connaissez depuis longtemps, <persName ref="#Phileas_Fogg"><rs type="person_grammar" ref="#Passepartout">votre</rs> maître</persName> ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Moi ! <seg type="incise">répondit <persName ref="#Passepartout">Passepartout</persName></seg>, <rs type="person_grammar" ref="#Passepartout">je</rs> suis entré à <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> service le jour même de <rs type="person_grammar" ref="#Passepartout, #Phileas_Fogg">notre</rs> départ. »</said></p> 
+            <p>On s’imagine aisément l’effet que ces réponses devaient produire sur l’esprit déjà surexcité de <persName ref="#Fix">l'inspecteur de police</persName>.</p> 
+            <p>Ce départ précipité de Londres, peu de temps après le vol, cette grosse somme emportée, cette hâte d’arriver en des pays lointains, ce prétexte d’un pari excentrique, etc., tout confirmait et devait confirmer <persName ref="#Fix">Fix</persName> dans <rs type="person_grammar" ref="#Fix">ses</rs> idées. <rs type="person_grammar" ref="#Fix">Il</rs> fit encore parler <persName ref="#Passepartout">le Français</persName> et acquit la certitude que <persName ref="#Passepartout">ce garçon</persName> ne connaissait aucunement <persName ref="#Phileas_Fogg"><rs type="person_grammar" ref="#Passepartout">son</rs> maître</persName>, que celui-ci vivait isolé à Londres, qu’on le disait riche sans savoir l’origine de <rs type="person_grammar" ref="#Phileas_Fogg">sa</rs> fortune, que c’était <persName ref="#Phileas_Fogg">un homme impénétrable</persName>, etc. Mais en même temps, <persName ref="#Fix">Fix</persName> put tenir pour certain que <persName ref="#Phileas_Fogg">le Phileas Fogg</persName> ne débarquait point à <placeName ref="#Suez">Suez</placeName>, et qu’<rs type="person_grammar" ref="#Phileas_Fogg">il</rs> allait réellement à <placeName ref="#Bombay">Bombay</placeName>.</p> 
+            <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"> « Est-ce loin <placeName ref="#Bombay">Bombay</placeName> ?</said><seg type="incise"> demanda <persName ref="#Passepartout">Passepartout</persName></seg>.</p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Assez loin, <seg type="incise">répondit <persName ref="#Fix">l'agent</persName></seg>. Il <rs type="person_grammar" ref="#Passepartout, #Phileas_Fogg">vous</rs> faut encore une dizaine de jours de mer.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Et où prenez-<rs type="person_grammar" ref="#Fix">vous</rs> <placeName ref="#Bombay">Bombay</placeName> ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Dans l'<placeName ref="#Inde">Inde</placeName>.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">En <placeName ref="#Asie">Asie</placeName> ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Naturellement.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Diable ! C’est que <rs type="person_grammar" ref="#Passepartout">je</rs> vais <rs type="person_grammar" ref="#Fix">vous</rs> dire… il y a une chose qui <rs type="person_grammar" ref="#Passepartout">me</rs> tracasse… c’est <rs type="person_grammar" ref="#Passepartout">mon</rs> bec !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Quel bec ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Mon</rs> bec de gaz que <rs type="person_grammar" ref="#Passepartout">j'</rs> ai oublié d’éteindre et qui brûle à <rs type="person_grammar" ref="#Passepartout">mon</rs> compte. Or, <rs type="person_grammar" ref="#Passepartout">j'</rs> ai calculé que <rs type="person_grammar" ref="#Passepartout">j'</rs> en avais pour deux shillings par vingt-quatre heures, juste six pence de plus que <rs type="person_grammar" ref="#Passepartout">je</rs> ne gagne, et <rs type="person_grammar" ref="#Fix">vous</rs> comprenez que pour peu que le voyage se prolonge… »</said></p> 
+            <p><persName ref="#Fix">Fix</persName> comprit-<rs type="person_grammar" ref="#Fix">il</rs> l’affaire du gaz ? C’est peu probable ; <rs type="person_grammar" ref="#Fix">il</rs> n’écoutait plus et prenait un parti. <persName ref="#Passepartout">Le Français</persName> et <rs type="person_grammar" ref="#Fix">lui</rs> étaient arrivés au bazar. <persName ref="#Fix">Fix</persName> laissa <persName ref="#Passepartout"><rs type="person_grammar" ref="#Passepartout">son</rs> compagnon</persName> y faire <rs type="person_grammar" ref="#Passepartout">ses</rs> emplettes, <rs type="person_grammar" ref="#Fix">il</rs> <rs type="person_grammar" ref="#Passepartout">lui</rs> recommanda de ne pas manquer le départ du <placeName ref="#Mongolia">Mongolia</placeName>, et <rs type="person_grammar" ref="#Fix">il</rs> revint en toute hâte aux bureaux de <persName ref="#le_consul">l'agent consulaire</persName>.</p> 
+            <p><persName ref="#Fix">Fix</persName>, maintenant que <rs type="person_grammar" ref="#Fix">sa</rs> conviction était faite, avait repris tout <rs type="person_grammar" ref="#Fix">son</rs> sang-froid.</p> 
+            <p><said who="#Fix" direct="true" aloud="true" toWhom="#le_consul">« <persName ref="#le_consul">Monsieur</persName>, <seg type="incise">dit-<rs type="person_grammar" ref="#Fix">il</rs> au <persName ref="#le_consul">consul</persName></seg>, <rs type="person_grammar" ref="#Fix">je</rs> n’ai plus aucun doute, <rs type="person_grammar" ref="#Fix">je</rs> tiens <persName ref="#Phileas_Fogg"><rs type="person_grammar" ref="#Fix">mon</rs> homme</persName>. <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> se fait passer pour un excentrique qui veut faire le tour du monde en quatre-vingts jours.</said></p>
+            <p>– <said who="#le_consul" direct="true" aloud="true" toWhom="#Fix">Alors c’est <persName ref="#Phileas_Fogg">un malin</persName>, <seg type="incise">répondit <persName ref="#le_consul">le consul</persName></seg>, et <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> compte revenir à Londres après avoir dépisté toutes les polices des deux continents !</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#le_consul"><rs type="person_grammar" ref="#Fix, #le_consul">Nous</rs> verrons bien</said>, <seg type="incise">répondit <persName ref="#Fix">Fix</persName>.</seg></p> 
+            <p>– <said who="#le_consul" direct="true" aloud="true" toWhom="#Fix">Mais ne <rs type="person_grammar" ref="#Fix">vous</rs> trompez-<rs type="person_grammar" ref="#Fix">vous</rs> pas ?</said><seg type="incise"> demanda encore une fois <persName ref="#le_consul">le consul</persName></seg>.</p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#le_consul"><rs type="person_grammar" ref="#Fix">Je</rs> ne me trompe pas.</said></p> 
+            <p>– <said who="#le_consul" direct="true" aloud="true" toWhom="#Fix">Alors, pourquoi <persName ref="#Phileas_Fogg">ce voleur</persName> a-t-<rs type="person_grammar" ref="#Phileas_Fogg">il</rs> tenu à faire constater par un visa <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> passage à <placeName ref="#Suez">Suez</placeName> ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#le_consul">Pourquoi, <rs type="person_grammar" ref="#Fix">je</rs> n’en sais rien, <persName ref="#le_consul">monsieur le consul</persName>, <seg type="incise">répondit <persName ref="#Fix">le détective</persName></seg>, mais écoutez-<rs type="person_grammar" ref="#Fix">moi</rs>. »</said></p> 
+            <p>Et, en quelques mots, <rs type="person_grammar" ref="#Fix">il</rs> rapporta les points saillants de <rs type="person_grammar" ref="#Fix">sa</rs> conversation avec <persName ref="#Passepartout">le domestique</persName> <persName ref="#Phileas_Fogg">dudit Fogg</persName>.</p> 
+            <p><said who="#le_consul" direct="true" aloud="true" toWhom="#Fix">« En effet, <seg type="incise">dit <persName ref="#le_consul">le consul</persName></seg>, toutes les présomptions sont contre <persName ref="#Phileas_Fogg">cet homme</persName>. Et qu’allez-<rs type="person_grammar" ref="#Fix">vous</rs> faire ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#le_consul">Lancer une dépêche à Londres avec demande instante de <rs type="person_grammar" ref="#Fix">m'</rs>adresser un mandat d’arrestation à <placeName ref="#Bombay">Bombay</placeName>, <rs type="person_grammar" ref="#Fix">m'</rs>embarquer sur le <placeName ref="#Mongolia">Mongolia</placeName>, filer <persName ref="#Phileas_Fogg">mon voleur</persName> jusqu’aux <placeName ref="#Inde">Indes</placeName>, et là, terre anglaise, l’accoster poliment, <rs type="person_grammar" ref="Fix">mon</rs> mandat à la main et la main sur l’épaule. »</said></p> 
+            <p>Ces paroles prononcées froidement, <persName ref="#Fix">l'agent Fix</persName> prit congé du <persName ref="#le_consul">consul</persName> et se rendit au bureau télégraphique. De là <rs type="person_grammar" ref="#Fix">il</rs> lança au <persName>directeur de la police métropolitaine</persName> cette dépêche que l’on connaît.</p> 
+            <p>Un quart d’heure plus tard, <persName ref="#Fix">Fix</persName>, <rs type="person_grammar" ref="#Fix">son</rs> léger bagage à la main, bien muni d’argent, d’ailleurs, <rs type="person_grammar" ref="#Fix">s'</rs>embarquait à bord du <placeName ref="#Mongolia">Mongolia</placeName>, et le rapide steamer filait à toute vapeur sur les eaux de la mer Rouge.</p>
+         </div>
+         <div type="chapter">
+            <head>Chapitre IX.
+               <lb/>OU LA MER ROUGE ET LA MER DES <placeName ref="#Inde">INDES</placeName> SE MONTRENT PROPICES AUX DESSEINS DE <persName ref="#Phileas_Fogg">PHILEAS FOGG</persName>.
+            </head>
+            <p>La distance entre <placeName ref="#Suez">Suez</placeName> et <placeName ref="#Aden">Aden</placeName> est exactement de treize cent dix milles, et le cahier des charges de la Compagnie alloue à ses paquebots un laps de temps de cent trente-huit heures pour la franchir. Le <placeName ref="#Mongolia">Mongolia</placeName>, dont les feux étaient activement poussés, marchait de manière à devancer l’arrivée réglementaire.</p> 
+            <p>La plupart des passagers embarqués à Brindisi avaient presque tous l’<placeName ref="#Inde">Inde</placeName> pour destination. Les uns se rendaient à <placeName ref="#Bombay">Bombay</placeName>, les autres à <placeName ref="#Calcutta">Calcutta</placeName>, mais via <placeName ref="#Bombay">Bombay</placeName>, car depuis qu’un chemin de fer traverse dans toute sa largeur la péninsule indienne, il n’est plus nécessaire de doubler la pointe de Ceylan.</p> 
+            <p>Parmi ces passagers du <placeName ref="#Mongolia">Mongolia</placeName>, on comptait divers fonctionnaires civils et des officiers de tout grade. De ceux-ci, les uns appartenaient à l’armée britannique proprement dite, les autres commandaient les troupes indigènes de cipayes, tous chèrement appointés, même à présent que le gouvernement s’est substitué aux droits et aux charges de l’ancienne Compagnie des <placeName ref="#Inde">Indes</placeName> : sous-lieutenants à 7,000 francs, brigadiers à 6,000, généraux à 100,000. Le traitement des fonctionnaires civils est encore plus élevé : les simples assistants au premier degré de la hiérarchie, ont 12,000 francs, les juges, 60,000 fr. ; les présidents de cour, 250,000 fr. ; les gouverneurs, 300,000 fr., et le gouverneur général, plus de 600,000 fr.</p>
+            <p>On vivait donc bien à bord du <placeName ref="#Mongolia">Mongolia</placeName>, dans cette société de fonctionnaires, auxquels se mêlaient quelques jeunes Anglais, qui, le million en poche, allaient fonder au loin des comptoirs de commerce. Le « purser » l’homme de confiance de la Compagnie, l’égal du capitaine à bord, faisait somptueusement les choses. Au déjeuner du matin, au lunch de <time when="14:00:00">deux heures</time>, au dîner de <time when="17:30:00">cinq heures et demie</time>, au souper de <time when="20:00:00">huit heures</time>, les tables pliaient sous les plats de viande fraîche et les entremets fournis par la boucherie et les offices du paquebot. Les passagères, – il y en avait quelques-unes, – changeaient de toilette deux fois par jour. On faisait de la musique, on dansait même, quand la mer le permettait.</p> 
+            <p>Mais la mer Rouge est fort capricieuse et trop souvent mauvaise, comme tous ces golfes étroits et longs. Quand le vent soufflait soit de la côte d’<placeName ref="#Asie">Asie</placeName>, soit de la côte d’<placeName ref="#Afrique">Afrique</placeName>, le <placeName ref="#Mongolia">Mongolia</placeName>, long fuseau à hélice, pris par le travers, roulait épouvantablement. Les dames disparaissaient alors ; les pianos se taisaient ; chants et danses cessaient à la fois. Et pourtant, malgré la raffale, malgré la houle, le paquebot, poussé par sa puissante machine, courait sans retard vers le <placeName ref="#détroit_de_Babel_Mandeb">détroit de Babel-Mandeb</placeName>.</p> 
+            <p>Que faisait <persName ref="#Phileas_Fogg">Phileas Fogg</persName>, pendant ce temps ? On pourrait croire que, toujours inquiet, anxieux, <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> se préoccupait des changements de vent nuisibles à la marche du navire, des mouvements désordonnés de la houle qui risquaient d’occasionner un accident à la machine, enfin de toutes les avaries possibles qui, en obligeant le <placeName ref="#Mongolia">Mongolia</placeName> à relâcher dans quelque port, auraient compromis <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> voyage ?</p> 
+            <p>Aucunement, ou tout au moins, si <persName ref="#Phileas_Fogg">ce gentleman</persName> songeait à ces éventualités, <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> n’en laissait rien paraître. C’était toujours l'homme impassible, le membre imperturbable du Reform-Club, qu’aucun incident ou accident ne pouvait surprendre. <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> ne paraissait pas plus ému que les chronomètres du bord. On <rs type="person_grammar" ref="#Phileas_Fogg">le</rs> voyait rarement sur le pont. <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> s’inquiétait peu d’observer cette mer Rouge, si féconde en souvenirs, ce théâtre des premières scènes historiques de l’humanité. <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> ne venait pas reconnaître les curieuses villes semées sur ses bords, et dont la pittoresque silhouette se découpait quelquefois à l’horizon. <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> ne rêvait même pas aux dangers de ce golfe arabique, dont les anciens historiens, Strabon, Arrien, Arthémidore, Edrisi, ont toujours parlé avec effroi, et sur lequel les navigateurs ne se hasardaient jamais sans avoir consacré leur voyage par des sacrifices propitiatoires.</p> 
+            <p>Que faisait donc <persName ref="#Phileas_Fogg">cet original</persName>, emprisonné dans le <placeName ref="#Mongolia">Mongolia</placeName> ? D’abord <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> faisait <rs type="person_grammar" ref="#Phileas_Fogg">ses</rs> quatre repas par jour sans que jamais ni roulis ni tangage ne pussent détraquer une machine si merveilleusement organisée. Puis <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> jouait au whist.</p> 
+            <p>Oui ! <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> avait rencontré des partenaires, aussi enragés que <rs type="person_grammar" ref="#Phileas_Fogg">lui</rs> : un collecteur de taxes qui se rendait à son poste à Goa, un ministre, le révérend Décimus Smith, retournant à <placeName ref="#Bombay">Bombay</placeName>, et un brigadier-général de l’armée anglaise, qui rejoignait son corps à Bénarès. Ces trois passagers avaient pour le whist la même passion que <persName ref="#Phileas_Fogg">Mr. Fogg</persName>, et ils jouaient pendant des heures entières, non moins silencieusement que <rs type="person_grammar" ref="#Phileas_Fogg">lui</rs>.</p> 
+            <p>Quant à <persName ref="#Passepartout">Passepartout</persName>, le mal de mer <rs type="person_grammar" ref="#Passepartout">l'</rs>avait épargné jusqu'alors. <rs type="person_grammar" ref="#Passepartout">Il</rs> occupait une cabine sur l'avant et mangeait, <rs type="person_grammar" ref="#Passepartout">lui</rs> aussi, consciencieusement. Il faut dire que, décidément, ce voyage, fait dans ces conditions, ne <rs type="person_grammar" ref="#Passepartout">lui</rs> déplaisait plus. <rs type="person_grammar" ref="#Passepartout">Il</rs> en prenait <rs type="person_grammar" ref="#Passepartout">son</rs> parti. Bien nourri, bien logé, <rs type="person_grammar" ref="#Passepartout">il</rs> voyait du pays, et d’ailleurs <rs type="person_grammar" ref="#Passepartout">il</rs> s’affirmait à <rs type="person_grammar" ref="#Passepartout">lui</rs>-même que toute cette fantaisie finirait à <placeName ref="#Bombay">Bombay</placeName>.</p> 
+            <p>Le lendemain du départ de <placeName ref="#Suez">Suez</placeName>, le <date when="1872-10-29">29 octobre</date>, ce ne fut pas sans un certain plaisir qu’<rs type="person_grammar" ref="#Passepartout">il</rs> rencontra sur le pont <persName ref="#Fix">l'obligeant personnage</persName> auquel <rs type="person_grammar" ref="#Passepartout">il</rs> s’était adressé en mettant le pied sur le sol africain.</p> 
+            <p><said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">« <rs type="person_grammar" ref="#Passepartout">Je</rs> ne me trompe pas, <seg type="incise">dit-<rs type="person_grammar" ref="#Passepartout">il</rs></seg> en <rs type="person_grammar" ref="#Fix">l'</rs>abordant avec son plus aimable sourire, c’est bien <rs type="person_grammar" ref="#Fix">vous</rs>, <persName ref="#Fix">monsieur</persName>, qui <rs type="person_grammar" ref="#Passepartout">m'</rs>avez si complaisamment servi à <placeName ref="#Suez">Suez</placeName> ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">En effet, <seg type="incise">répondit <persName ref="#Fix">le détective</persName></seg>, <rs type="person_grammar" ref="#Fix">je</rs> <rs type="person_grammar" ref="#Passepartout">vous</rs> reconnais ! <rs type="person_grammar" ref="#Passepartout">Vous</rs> êtes <persName ref="#Passepartout">le domestique</persName> de <persName ref="#Phileas_Fogg">cet Anglais original</persName>…</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Précisément, <persName ref="#Fix">monsieur</persName>… ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout"><persName ref="#Fix">Fix</persName>.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><persName ref="#Fix">Monsieur Fix</persName>, <seg type="incise">répondit <persName ref="#Passepartout">Passepartout</persName></seg>. Enchanté de <rs type="person_grammar" ref="#Fix">vous</rs> retrouver à bord. Et où allez-<rs type="person_grammar" ref="#Fix">vous</rs> donc ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Mais ainsi que <rs type="person_grammar" ref="#Passepartout">vous</rs>, à <placeName ref="#Bombay">Bombay</placeName>.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">C’est au mieux ! Est-ce que <rs type="person_grammar" ref="#Fix">vous</rs> avez déjà fait ce voyage ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Plusieurs fois, <seg type="incise">répondit <persName ref="#Fix">Fix</persName></seg>. <rs type="person_grammar" ref="#Fix">Je</rs> suis un agent de la Compagnie péninsulaire.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Alors <rs type="person_grammar" ref="#Fix">vous</rs> connaissez l’<placeName ref="#Inde">Inde</placeName> ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Mais… oui…, <seg type="incise">répondit <persName ref="#Fix">Fix</persName></seg>, qui ne voulait pas trop s’avancer.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Et c’est curieux, cette <placeName ref="#Inde">Inde</placeName>-là ?</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Très curieux ! des mosquées, des minarets, des temples, des fakirs, des pagodes, des tigres, des serpents, des bayadères ! Mais il faut espérer que <rs type="person_grammar" ref="#Passepartout, #Phileas_Fogg">vous</rs> aurez le temps de visiter le pays ?</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Je</rs> l’espère, <persName ref="#Fix">monsieur Fix</persName>. <rs type="person_grammar" ref="#Fix">Vous</rs> comprenez bien qu’il n’est pas permis à un homme sain d’esprit de passer sa vie à sauter d’un paquebot dans un chemin de fer et d’un chemin de fer dans un paquebot, sous prétexte de faire le tour du monde en quatre-vingts jours ! Non, toute cette gymnastique cessera à <placeName ref="#Bombay">Bombay</placeName>, n’en doutez pas.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Et <rs type="person_grammar" ref="#Phileas_Fogg">il</rs> se porte bien, <persName ref="#Phileas_Fogg">Mr. Phileas Fogg</persName> ?</said><seg type="incise"> demanda <persName ref="#Fix">Fix</persName></seg> du ton le plus naturel.</p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Très bien, <persName ref="#Fix">monsieur Fix</persName>. <rs type="person_grammar" ref="#Passepartout">Moi</rs> aussi, d’ailleurs. <rs type="person_grammar" ref="#Passepartout">Je</rs> mange comme un ogre qui serait à jeun. C’est l’air de la mer.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Et <persName ref="#Phileas_Fogg"><rs type="person_grammar" ref="#Passepartout">votre</rs> maître</persName>, <rs type="person_grammar" ref="#Fix">je</rs> ne le vois jamais sur le pont.</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix">Jamais. <rs type="person_grammar" ref="#Phileas_Fogg">Il</rs> n’est pas curieux.</said></p> 
+            <p>– <said who="#Fix" direct="true" aloud="true" toWhom="#Passepartout">Savez-<rs type="person_grammar" ref="#Passepartout">vous</rs>, <persName ref="#Passepartout">monsieur Passepartout</persName>, que ce prétendu voyage en quatre-vingts jours pourrait bien cacher quelque mission secrète… une mission diplomatique, par exemple !</said></p> 
+            <p>– <said who="#Passepartout" direct="true" aloud="true" toWhom="#Fix"><rs type="person_grammar" ref="#Passepartout">Ma</rs> foi, <persName ref="#Fix">monsieur Fix</persName>, <rs type="person_grammar" ref="#Passepartout">je</rs> n’en sais rien, <rs type="person_grammar" ref="#Passepartout">je</rs> <rs type="person_grammar" ref="#Fix">vous</rs> l’avoue, et, au fond, <rs type="person_grammar" ref="#Passepartout">je</rs> ne donnerais pas une demi-couronne pour le savoir. »</said></p> 
+            <p>Depuis cette rencontre, <persName ref="#Passepartout">Passepartout</persName> et <persName ref="#Fix">Fix</persName> causèrent souvent ensemble. <persName ref="#Fix">L'inspecteur de police</persName> tenait à se lier avec <persName ref="#Passepartout">le domestique</persName> du <persName ref="#Phileas_Fogg">sieur Fogg</persName>. Cela pouvait <rs type="person_grammar" ref="#Fix">le</rs> servir à l’occasion. <rs type="person_grammar" ref="#Fix">Il</rs> lui offrait donc souvent, au bar-room du <placeName ref="#Mongolia">Mongolia</placeName>, quelques verres de whisky ou de pale-ale, que <persName ref="#Passepartout">le brave garçon</persName> acceptait sans cérémonie et rendait même pour ne pas être en reste, – trouvant, d’ailleurs, ce <persName ref="#Fix">Fix</persName>, un gentleman bien honnête.</p> 
+            <p>Cependant, le paquebot s’avançait rapidement. Le <date when="1872-10-13">13</date>, on eut connaissance de Moka, qui apparut dans sa ceinture de murailles ruinées, au-dessus desquelles se détachaient quelques dattiers verdoyants. Au loin, dans les montagnes, se développaient de vastes champs de cafeyers. <persName ref="#Passepartout">Passepartout</persName> fut ravi de contempler cette ville célèbre, et <rs type="person_grammar" ref="#Passepartout">il</rs> trouva même qu’avec ces murs circulaires et un fort démantelé qui se dessinait comme une anse, elle ressemblait à une énorme demi-tasse.</p> 
+            <p>Pendant la nuit suivante, le <placeName ref="#Mongolia">Mongolia</placeName> franchit le <placeName ref="#détroit_de_Babel_Mandeb">détroit de Babel-Mandeb</placeName>, dont le nom arabe signifie : la Porte des Larmes, et le lendemain, <date when="1872-10-14">14</date>, il faisait escale à Steamer-Point, au nord-ouest de la rade d’<placeName ref="#Aden">Aden</placeName>. C’est là qu’il devait se réapprovisionner de combustible.</p> 
+            <p>Grave et importante affaire que cette alimentation du foyer des paquebots à de telles distances des centres de production. Rien que pour la Compagnie péninsulaire, c’est une dépense annuelle qui se chiffre par huit cent mille livres (20 millions de francs). Il a fallu, en effet, établir des dépôts en plusieurs ports, et dans ces mers éloignées, le charbon revient à quatre-vingts francs la tonne.</p> 
+            <p>Le <placeName ref="#Mongolia">Mongolia</placeName> avait encore seize cent cinquante milles à faire avant d’atteindre <placeName ref="#Bombay">Bombay</placeName>, et il devait rester quatre heures à Steamer-Point, afin de remplir ses soutes.</p> 
+            <p>Mais ce retard ne pouvait nuire en aucune façon au programme de <persName ref="#Phileas_Fogg">Phileas Fogg</persName>. Il était prévu. D’ailleurs, le <placeName ref="#Mongolia">Mongolia</placeName>, au lieu d’arriver à <placeName ref="#Aden">Aden</placeName>, le <date when="1872-10-15">15 octobre</date> seulement au matin, y entrait le <date when="1872-10-14">14</date> au soir. C’était donc un gain de quinze heures.</p> 
+            <p><persName ref="#Phileas_Fogg">Mr. Fogg</persName> et <persName ref="#Passepartout"><rs type="person_grammar" ref="#Phileas_Fogg">son</rs> domestique</persName> descendirent à terre. <persName ref="#Phileas_Fogg">Le gentleman</persName> voulait faire viser <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> passe-port. <persName ref="#Fix">Fix</persName> <rs type="person_grammar" ref="#Phileas_Fogg">le</rs> suivit sans être remarqué. La formalité du visa accomplie, <persName ref="#Phileas_Fogg">Phileas Fogg</persName> revint à bord reprendre <rs type="person_grammar" ref="#Phileas_Fogg">sa</rs> partie interrompue.</p> 
+            <p><persName ref="#Passepartout">Passepartout</persName>, <rs type="person_grammar" ref="#Passepartout">lui</rs>, flâna, suivant <rs type="person_grammar" ref="#Passepartout">sa</rs> coutume, au milieu de cette population de Somanlis, de Banians, de Parsis, de juifs, d’Arabes, d’Européens, composant les 25,000 habitants d’<placeName ref="#Aden">Aden</placeName>. <rs type="person_grammar" ref="#Passepartout">Il</rs> admira les fortifications qui font de cette ville le <placeName ref="#Gibraltar">Gibraltar</placeName> de la mer des <placeName ref="#Inde">Indes</placeName>, et de magnifiques citernes auxquelles travaillaient encore les ingénieurs anglais, deux mille ans après les ingénieurs du roi Salomon.</p> 
+            <p><said who="#Passepartout" direct="true" aloud="true">« Très curieux, très curieux ! se disait <persName ref="#Passepartout">Passepartout</persName> en revenant à bord. <rs type="person_grammar" ref="#Passepartout">Je</rs> m’aperçois qu’il n’est pas inutile de voyager si l’on veut voir du nouveau. »</said></p> 
+            <p>À <time when="18:00:00">six heures du soir</time>, le <placeName ref="#Mongolia">Mongolia</placeName> battait des branches de son hélice les eaux de la rade d’<placeName ref="#Aden">Aden</placeName> et courait bientôt sur la mer des <placeName ref="#Inde">Indes</placeName>. Il lui était accordé cent soixante-huit heures pour accomplir la traversée entre <placeName ref="#Aden">Aden</placeName> et <placeName ref="#Bombay">Bombay</placeName>. Du reste, cette mer indienne lui fut favorable. Le vent tenait dans le nord-ouest. Les voiles vinrent en aide à la vapeur.</p> 
+            <p>Le navire, mieux appuyé, roula moins. Les passagères, en fraîches toilettes, reparurent sur le pont. Les chants et les danses recommencèrent.</p> 
+            <p>Le voyage s’accomplit donc dans les meilleures conditions. <persName ref="#Passepartout">Passepartout</persName> était enchanté de <persName ref="#Fix">l'aimable compagnon</persName> que le hasard <rs type="person_grammar" ref="#Passepartout">lui</rs> avait procuré en la personne de <persName ref="#Fix">Fix</persName>.</p> 
+            <p>Le dimanche <date when="1872-10-20">20 octobre</date>, vers <time when="12:00:00">midi</time>, on eut connaissance de la côte indienne. Deux heures plus tard, le pilote montait à bord du <placeName ref="#Mongolia">Mongolia</placeName>. À l’horizon, un arrière-plan de montagnes se profilait harmonieusement sur le fond du ciel. Bientôt les rangs de palmiers qui couvrent la ville se détachèrent vivement. Le paquebot pénétra dans cette rade formée par les îles Salcette, Colaba, Éléphanta, Butcher, et à <time when="16:30:00">quatre heures et demie</time>, il accostait les quais de <placeName ref="#Bombay">Bombay</placeName>.</p> 
+            <p><persName ref="#Phileas_Fogg">Phileas Fogg</persName> achevait alors le trente-troisième robbre de la journée ; <persName ref="#Passepartout"><rs type="person_grammar" ref="#Phileas_Fogg">son</rs> partenaire</persName> et <rs type="person_grammar" ref="#Phileas_Fogg">lui</rs>, grâce à une manœuvre audacieuse, ayant fait les treize levées, terminèrent cette belle traversée par un chelem admirable.</p> 
+            <p>Le <placeName ref="#Mongolia">Mongolia</placeName> ne devait arriver que le <date when="1872-10-22">22 octobre</date> à <placeName ref="#Bombay">Bombay</placeName> ; il y arrivait le <date when="1872-10-20">20</date>. C’était donc, depuis son départ de Londres, un gain de deux jours, que <persName ref="#Phileas_Fogg">Phileas Fogg</persName> inscrivit méthodiquement sur <rs type="person_grammar" ref="#Phileas_Fogg">son</rs> itinéraire à la colonne des bénéfices.</p>
+         </div>
+         </body>
+         </text>
+        
+</TEI>
