@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* Style de la barre de navigation (couleur de fond, couleur de la police) */
+header {
+    height: 100px;
+    background-color: #FCD581;
+    color: #D52941;
+
+}
+
+/* Paramètres de l'image */
+img {
+    margin: auto;
+    height: 100px;
+    width: 75px;
+}
+nav {
+    float: right;
+    width: 35%;
+    margin : 2%;
+    font-family:Didot, serif;
+}
+
+
+.haut {
+    text-align:center;
+}
+
+/* Couleur de fond sur le site, pour le body */
+body {
+    background-color: #FFF8E8;
+}
+
+/* Style pour les différents titres */
+h1 {
+    color: #990D35;
+    font-family:Didot, serif;
+    font-size: 300%;
+}
+
+h2 {
+    color: #D52941;
+    font-family:Didot, serif;
+    font-size: 225%;
+}
+
+h3 {
+    margin-left: 2px;   
+    border-radius: 0px;
+    color: #EE4B6A;
+    font-family:Didot, serif;
+    font-size: 15px;   
+}
+
+/* Style de police pour les paragraphes du chapitre 8 */
+.chapitre8 {
+    color: #F19C79;
+}
+
+/* Style de police pour les paragraphes du chapitre 9 */
+.chapitre9 {
+    color: #F19C79;
+}
+
+.index {
+    color: #F19C79;
+}
+/* Style pour le pied de page */
+footer {
+  background-color: #FCD581;
+    color: #D52941;
+    font-family:Didot, serif;
+    font-weight: bold;
+    padding: 2%;
+}
